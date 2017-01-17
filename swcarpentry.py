@@ -1,4 +1,3 @@
-import functools
 from pyspark.sql import SparkSession
 
 
@@ -21,6 +20,6 @@ if __name__ == "__main__":
 
     # csv file transformed into dataframe
     peopleDF = spark.read.load("data/swcarpentry/person.csv", format="csv")
-surveyDF = spark.read.load("data/swcarpentry/survey.csv", format="csv")
+    surveyDF = spark.read.load("data/swcarpentry/survey.csv", format="csv")
 
     spark.stop()
