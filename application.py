@@ -32,3 +32,6 @@ lines = sc.parallelize(["hello world", "hi"])
 # use flatMap() to return an iterator with our return values
 words = lines.flatMap(lambda line: line.split(" "))
 words.first()
+
+# actions produce output, not RDDs
+reduce_sum = nums.reduce(lambda x, y: x + y)  # returns 10

@@ -14,3 +14,9 @@ Master advanced topics like data partitioning and shared variables
 <http://shop.oreilly.com/product/0636920028512.do>
 
 <https://github.com/databricks/learning-spark>
+
+
+## Working through book using
+  - Spark 2.1.0
+
+  - Python 3.5.2 
