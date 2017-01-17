@@ -10,6 +10,6 @@ if __name__ == "__main__":
             .getOrCreate()
 
     # csv file will be transformed into dataframe
-    df = spark.read.load("data/survey.csv", format="csv")
+    peopleDF = spark.read.load("data/swcarpentry/person.csv", format="csv")
 
     spark.stop()
