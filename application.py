@@ -21,8 +21,14 @@ for line in fastRDD.take(10):
 
 # parallelize() takes collection of objects into driver program > create a RDD
 nums = sc.parallelize([1, 2, 3, 4])
-# collect() should only be used on small local datasets
+# collect() is needed to return map as an iterable
+# but should not be used on large datasets
 squared = nums.map(lambda x: x ** x).collect()
 # display output of new RDD created by map transformations
 for num in squared:
     print(num)
+
+lines = sc.parallelize(["hello world", "hi"])
+# use flatMap() to return an iterator with our return values
+words = lines.flatMap(lambda line: line.split(" "))
+words.first()
