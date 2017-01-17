@@ -27,7 +27,5 @@ df.groupBy("age").count().show()
 df.createOrReplaceTempView("people")
 # sql function on a SparkSession enables applications to run SQL queries
 # programmatically and returns the result as a DataFrame
-sqlDf = spark.sql("SELECT * FROM people")
+sqlDF = spark.sql("SELECT * FROM people")
 sqlDF.show()
-
-# interoperating with RDDs
