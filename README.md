@@ -1,4 +1,4 @@
-## Learning Spark by Holden Karau, Andy Konwinski, Patrick Wendell, Matei Zaharia
+### Learning Spark by Holden Karau, Andy Konwinski, Patrick Wendell, Matei Zaharia
 
 Data in all domains is getting bigger. How can you work with it efficiently? Recently updated for Spark 1.3, this book introduces Apache Spark, the open source cluster computing system that makes data analytics fast to write and fast to run. With Spark, you can tackle big datasets quickly through simple APIs in Python, Java, and Scala. This edition includes new information on Spark SQL, Spark Streaming, setup, and Maven coordinates.
 
@@ -16,7 +16,7 @@ Master advanced topics like data partitioning and shared variables
 <https://github.com/databricks/learning-spark>
 
 
-## Working through book using
+### Working through book using
   - Spark 2.1.0
 
-  - Python 3.5.2 
+  - Python 3.5.2
