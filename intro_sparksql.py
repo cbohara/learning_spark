@@ -18,7 +18,7 @@ def basic_df_example(spark):
     # count people by age
     df.groupBy("age").count().show()
 
-    # temporary view will disappear once session is terminated
+    # register table so it is available for SQL contextc
     df.createOrReplaceTempView("people")
     # sql function on a SparkSession enables applications to run SQL queries
     # programmatically and returns the result as a DataFrame
