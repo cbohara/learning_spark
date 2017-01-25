@@ -26,5 +26,3 @@ Master advanced topics like data partitioning and shared variables
 Using official Spark 2.1.0 guide for Spark SQL
 
 <https://spark.apache.org/docs/latest/sql-programming-guide.html#overview>
-
-update readme
