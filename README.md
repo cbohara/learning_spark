@@ -20,8 +20,6 @@ Master advanced topics like data partitioning and shared variables
 
 <https://github.com/databricks/learning-spark>
 
-git
-
 
 ### Spark SQL, DataFrames and Datasets Guide
 
