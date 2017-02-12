@@ -27,34 +27,3 @@ Master advanced topics like data partitioning and shared variables
 <http://shop.oreilly.com/product/0636920028512.do>
 
 <https://github.com/databricks/learning-spark>
-
-
-### Intro
-
-- Spark's 3 main benefits
-
-  - Easy to use
-
-     - Develop apps on laptop
-
-     - Use high level API
-
-  - Fast
-
-    - Interactive and fast algorithms
-
-  - General engine
-
-     - Combine multiple types of computations using one engine
-
-        - SQL queries
-
-        - Text processing
-
-        - Machine learning
-
-### Chapter 1 Intro to Data Analysis with Spark
-
-- Cluster computing platform = fast + general purpose
-
-  - Fast
