@@ -35,5 +35,3 @@ words.first()
 
 # actions produce output, not RDDs
 reduce_sum = nums.reduce(lambda x, y: x + y)  # returns 10
-
-asdfasdfsf
