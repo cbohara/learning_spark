@@ -121,7 +121,16 @@ End-to-End Example
 		spark.conf.set("spark.sql.shuffle.partitions", "5")
 
 DataFrames and SQL
-	 no performance difference between writing SQL queries or writing DataFrame code
-	allows you to query data using SQL
+	no performance difference between writing SQL queries or writing DataFrame code
+		allows you to query data using SQL
+		SQL query on DataFrame returns another DataFrame
 	createOrReplaceTempView
 		make DataFrame into a table or view
+
+DataFrame methods
+	many methods accept a string for the column name
+	groupBy > RelationalGroupedDataset
+		fancy DataFrame
+		specify key we are going to group by
+		the perform aggregation on that grouping
+		grouping is specified but user needs to specify aggregation before it can be queried further
